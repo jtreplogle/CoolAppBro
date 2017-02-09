@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDDB10CA-FAC8-4DC0-837E-A583444C530F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{45ACA173-A74A-4400-9435-BCD262BB52EF}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CoolApp", "src\CoolApp\CoolApp.xproj", "{A49A8FD5-BE24-4658-88BD-36CDA36CB884}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A49A8FD5-BE24-4658-88BD-36CDA36CB884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49A8FD5-BE24-4658-88BD-36CDA36CB884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49A8FD5-BE24-4658-88BD-36CDA36CB884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49A8FD5-BE24-4658-88BD-36CDA36CB884}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A49A8FD5-BE24-4658-88BD-36CDA36CB884} = {EDDB10CA-FAC8-4DC0-837E-A583444C530F}
+	EndGlobalSection
+EndGlobal
